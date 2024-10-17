@@ -66,7 +66,7 @@ DATAProX/
 
 ### Usage
 1.	Login:
-Open the web app by navigating to http://localhost:5000/login.
+Open the web app by navigating to =/login.
 Use the admin credentials from the users.csv file to log in.
 2.	View Violations:
 After login, access the dashboard to see real-time violations.
