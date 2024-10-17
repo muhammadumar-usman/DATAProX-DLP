@@ -25,28 +25,29 @@
 ### Steps to Install
 
 1. **Clone the Repository**:
-  ‘‘‘  git clone https://github.com/yourusername/DATAProX.git
-   cd DATAProX ’‘‘  
+  ``` git clone https://github.com/muhammadumar-usman/DATAProX.git```
+   ```cd DATAProX```
 
 2.	Install Dependencies:
 o	Install the required Python packages:
-‘‘‘ pip install -r requirements.txt ’‘‘  
+```pip install -r requirements.txt```
 
 3.	Database Setup:
 o	Initialize the SQLite database:
-‘‘‘ flask db init
-flask db migrate
-flask db upgrade ’‘‘  
+```flask db init```
+```flask db migrate```
+```flask db upgrade```
 
 4.	Run the Flask App:
 o	Start the Flask server:
-‘‘‘ flask run ’‘‘  
+```flask run```
 
 5.	Start mitmproxy:
 o	Start mitmproxy to monitor traffic:
-‘‘‘ mitmproxy --mode transparent --script your_script.py ’‘‘  
+```mitmproxy --mode transparent --script your_script.py```
 
 ### File Structure
+```
 DATAProX/
 │
 ├── app.py                 # Main Flask application file
@@ -61,7 +62,7 @@ DATAProX/
 ├── users.csv              # CSV file containing user credentials
 ├── patterns.txt           # Patterns file for sensitive data detection
 └── known_hashes.txt       # List of known malicious file hashes
-
+```
 
 ### Usage
 1.	Login:
@@ -75,3 +76,4 @@ o	Use mitmproxy to intercept traffic and send requests to the Flask backend.
 
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
