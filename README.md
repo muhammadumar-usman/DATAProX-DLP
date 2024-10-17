@@ -62,6 +62,7 @@ DATAProX/
 ├── patterns.txt           # Patterns file for sensitive data detection
 └── known_hashes.txt       # List of known malicious file hashes
 
+
 ### Usage
 1.	Login:
 o	Open the web app by navigating to http://localhost:5000/login.
