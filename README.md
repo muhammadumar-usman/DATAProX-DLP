@@ -66,13 +66,13 @@ DATAProX/
 
 ### Usage
 1.	Login:
-o	Open the web app by navigating to http://localhost:5000/login.
-o	Use the admin credentials from the users.csv file to log in.
+Open the web app by navigating to http://localhost:5000/login.
+Use the admin credentials from the users.csv file to log in.
 2.	View Violations:
-o	After login, access the dashboard to see real-time violations.
-o	Violations can be filtered by user, URL, method, or time range.
+After login, access the dashboard to see real-time violations.
+Violations can be filtered by user, URL, method, or time range.
 3.	Monitor Traffic:
-o	Use mitmproxy to intercept traffic and send requests to the Flask backend.
+Use mitmproxy to intercept traffic and send requests to the Flask backend.
 
 ### Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
